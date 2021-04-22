@@ -46,6 +46,14 @@ new cell:
 This clones (downloads) the tutorial materials from the GitHub online
 repository. 
 
+You may wish to clone the GitHub repository into a specific directory 
+(to avoid overwriting an existing directory). To do this, in a new cell run:
+```
+!git clone https://github.com/MQ-ASTR3110-2021/ASTR3110_Tutorial_Notebooks_2021.git New_Dir
+
+```
+and the contents of the repository will be cloned into the new directory New_Dir/ (you can name this differently if you choose).
+
 ## Step 3: Start a Jupiter Notebook and reconnect to your Google Drive.
 
 Most excercises in this tutorial are done within a Jupyter
