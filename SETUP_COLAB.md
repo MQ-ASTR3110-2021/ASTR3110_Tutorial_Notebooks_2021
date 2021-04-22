@@ -2,7 +2,7 @@
 
 Most tutorials will involve live-coding in Jupyter Notebooks hosted on
 [Google
-Colab](https://colab.google.com/). This
+Colab](https://colab.research.google.com). This
 is a free cloud-based service that supports access to graphics
 processing units (GPUs).
 
@@ -40,7 +40,7 @@ Wait for this to execute successfully and then do the following in a
 new cell:
 
 ```
-!git clone https://github.com/MQ-ASTR3110-2020/ASTR3110_Tutorial_Notebooks.git
+!git clone https://github.com/MQ-ASTR3110-2021/ASTR3110_Tutorial_Notebooks_2021.git
 ```
 
 This clones (downloads) the tutorial materials from the GitHub online
@@ -69,7 +69,7 @@ Drive (if you need to save data from the Notebook):
 from google.colab import drive
 drive.mount('/content/gdrive')
 import os
-os.chdir('./gdrive/My Drive/ASTR3110_Tutorial_Notebooks')
+os.chdir('./gdrive/My Drive/ASTR3110_Tutorial_Notebooks_2021')
 ```
  * Enter your authorization code from the provided link again.
 
